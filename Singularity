@@ -18,3 +18,4 @@ From:centos:6
     mkdir -p /{software,afs,sps,scratch}
 
     chmod 2755 /usr/sbin/sendmail.sendmail
+    ln -s /usr/lib/libcrypto.so.1.0.1e /usr/lib/libcrypto.so.6
